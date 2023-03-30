@@ -1,0 +1,30 @@
+.item-wrapper {
+  margin: 15px 0px;
+  font-size: 18px;
+}
+.item {
+  margin-right: 30px;
+}
+
+.item-last {
+  margin-right: 5px;
+}
+
+.currency {
+  margin-right: 30px;
+}
+
+.message {
+  font-size: 18px;
+  margin: 15px 0px;
+}
+
+.final-currency {
+  font-size: 18px;
+}
+
+.total {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 25px 0;
+}

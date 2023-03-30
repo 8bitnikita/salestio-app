@@ -1,9 +1,13 @@
 {
-  "name": "salestion-app",
+  "name": "salestio-app",
+  "homepage": "https://8bitnikita.github.io/salestio-app/",
   "version": "1.0.0",
   "main": "web/index.js",
   "license": "UNLICENSED",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "yarn jest",
     "shopify": "shopify",
     "build": "shopify app build",
     "dev": "shopify app dev",
@@ -16,6 +20,7 @@
     "@shopify/app": "3.44.1",
     "@shopify/cli": "3.44.1",
     "axios": "^1.3.4",
+    "gh-pages": "^5.0.0",
     "react-redux": "^8.0.5",
     "redux": "^4.2.1"
   },
